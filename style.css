@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+.container {
+	text-align: center;
+}
+
+.caption p, button {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.jumbotron {
+	background-image: url("https://static.pexels.com/photos/175719/pexels-photo-175719.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	margin: 0 auto;
+}
+
+.jumbotron h3 {
+	color: white;
+}
+
+th {
+	text-align: center;
+}
+
+.gallery2 img {
+	display: block;
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.container .media {
+	text-align: left;
+}
+
+.media img {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+footer p {
+	color: white;
+	margin: 20px auto;
+}
+
+.table, .request {
+	float: center;
+}
+
+@media (max-width: 768px) {
+	.gallery2 img {
+		height: auto;
+		width: 100%;
+	}
+}
